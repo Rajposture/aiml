@@ -49,3 +49,21 @@ while pq:
             g_cost[nb] = new_g
             f = new_g + heuristic[nb]
             heapq.heappush(pq, (f, nb))
+
+# Sample input:
+# Enter number of nodes: 3
+# Enter node name: A
+# Enter neighbors of A with cost like B,4 C,2: B,4 C,2
+# Enter node name: B
+# Enter neighbors of B with cost like B,4 C,2:
+# Enter node name: C
+# Enter neighbors of C with cost like B,4 C,2:
+# Enter heuristic value for A: 2
+# Enter heuristic value for B: 1
+# Enter heuristic value for C: 0
+# Enter start node: A
+# Enter goal node: C
+
+# Output:
+# A C
+# Goal reached with cost 2

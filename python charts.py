@@ -19,5 +19,5 @@ for i in range(len(corr.columns)):
         plt.text(j, i, round(corr.iloc[i, j], 2), ha="center", va="center", fontsize=8)
  
 plt.tight_layout()
-plt.savefig("7_heatmap.png")
+plt.savefig("shantanu.png")
 plt.close()

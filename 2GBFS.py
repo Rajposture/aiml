@@ -38,3 +38,21 @@ while pq:
     for nb in graph[curr]:
         if nb not in visited:
             heapq.heappush(pq, (heuristic[nb], nb))
+
+# Sample input:
+# Enter number of nodes: 3
+# Enter node name: A
+# Enter neighbors of A separated by space: B C
+# Enter node name: B
+# Enter neighbors of B separated by space: A
+# Enter node name: C
+# Enter neighbors of C separated by space: A
+# Enter heuristic value for A: 3
+# Enter heuristic value for B: 1
+# Enter heuristic value for C: 0
+# Enter start node: A
+# Enter goal node: C
+
+# Output:
+# A C
+# Goal reached

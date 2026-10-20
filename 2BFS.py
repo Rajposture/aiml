@@ -27,3 +27,16 @@ while heap:
             heapq.heappush(heap, nb)
 
 print("\nTraversal done")
+# Sample input:
+# Enter number of nodes: 3
+# Enter node name: A
+# Enter neighbors separated by space: B C
+# Enter node name: B
+# Enter neighbors separated by space: A
+# Enter node name: C
+# Enter neighbors separated by space: A
+# Enter start node: A
+
+# Output:
+# A B C
+# Traversal done

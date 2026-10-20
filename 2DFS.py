@@ -27,3 +27,16 @@ while heap:
             heapq.heappush(heap, nb)
 
 print("\nDFS traversal done")
+# Sample input:
+# Enter number of nodes: 3
+# Enter node name: A
+# Enter neighbors of A: B C
+# Enter node name: B
+# Enter neighbors of B: A
+# Enter node name: C
+# Enter neighbors of C: A
+# Enter start node: A
+
+# Output:
+# A B C
+# DFS traversal done
